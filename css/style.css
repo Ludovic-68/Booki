@@ -27,7 +27,9 @@ body {
 
 /***** Header, Logo, Nav *************/
 header {
-  width: 100%;  
+  width: 100%; 
+  display: flex;
+  justify-content: space-between;
 }
 
 nav {
@@ -58,7 +60,7 @@ height: 79px;
 .logo {
     width: 61.09px;
     height: 19px;
-    padding: 30px 0px;
+    margin: 30px 0px;
 }
 /*****Fin du header, logo, nav *************/
 
