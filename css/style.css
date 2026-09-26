@@ -64,6 +64,24 @@ height: 79px;
 }
 /*****Fin du header, logo, nav *************/
 
+.info-group {
+    height : 281px;
+}
+
+.headline {
+height : 53px;
+}
+
+.headline p {
+margin: 3px 0px 0px;
+
+}
+
+h1 {
+font-size: 22px;
+margin : 0px;
+}
+
 a {
     color: inherit;
     text-decoration: none;
