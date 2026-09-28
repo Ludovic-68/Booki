@@ -27,16 +27,16 @@ body {
 
 /***** Header, Logo, Nav *************/
 header {
-  width: 100%; 
-  display: flex;
-  justify-content: space-between;
+    width: 100%; 
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
-display: flex;
-justify-content: space-between;
-align-items: center;
-height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 79px;
 }
 
 .nav-links {
@@ -64,23 +64,69 @@ height: 79px;
 }
 /*****Fin du header, logo, nav *************/
 
+/*****Début section info-group *************/
 .info-group {
     height : 281px;
 }
 
 .headline {
-height : 53px;
+    height : 53px;
 }
 
 .headline p {
-margin: 3px 0px 0px;
+    margin: 3px 0px 0px;
 
 }
 
 h1 {
-font-size: 22px;
-margin : 0px;
+    font-size: 22px;
+    margin : 0px;
 }
+
+.info-group-recherche {
+    margin: 35px 0px 35px;
+    display: flex;
+    height: 49px;
+}
+
+.recherche-icone {
+    display: flex;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background-color: #F2F2F2;
+    border-radius: 15px 0px 0px 15px;
+}
+
+.recherche-icone i {
+    color: #000000;
+    font-size: 18px;
+}
+
+.recherche-saisie {
+    border: 1px solid #F2F2F2;
+    width: 195px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+    text-align: center;
+    background-color: white;
+}
+
+.bouton-recherche {
+    width: 132px;
+    border-radius: 0 15px 15px 0;
+    background-color: #0065FC;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: inherit;
+    color: white;
+    cursor: pointer;
+}
+
+/*****Fin section info-group *************/
 
 a {
     color: inherit;
