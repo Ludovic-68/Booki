@@ -115,6 +115,10 @@ h1 {
     background-color: white;
 }
 
+.recherche-saisie::placeholder {
+    color: #000000;
+}
+
 .bouton-recherche {
     width: 132px;
     border-radius: 0 15px 15px 0;
@@ -127,9 +131,43 @@ h1 {
     cursor: pointer;
 }
 
-/**Barre de filtre**
+/**Barre de filtres**/
 
+.info-group-filtres {
+   height: 50px;
+   width: 758px;
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
 
+.filtres-titre {
+    font-size: 18px;
+    margin: 0px;
+}
+
+.filtres-liste {
+    display : flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.filtre {
+    padding: 13px 17px;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.filtre:hover {
+  background-color: #DEEBFF;
+}
 
 /*****Fin section info-group *************/
 
