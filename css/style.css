@@ -30,6 +30,7 @@ header {
     width: 100%; 
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 nav {
@@ -66,7 +67,7 @@ nav {
 
 /*****Début section info-group *************/
 .info-group {
-    height : 281px;
+    margin-bottom: 35px;
 }
 
 .headline {
@@ -136,6 +137,7 @@ h1 {
 .info-group-filtres {
    height: 50px;
    width: 758px;
+   margin-bottom: 35px;
    display: flex;
    align-items: center;
    gap: 15px;
@@ -167,6 +169,26 @@ h1 {
 
 .filtre:hover {
   background-color: #DEEBFF;
+}
+
+/**i info logement**/
+
+.info-group-logements {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 35px 0px 0px;
+}
+
+.logements-icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    font-size: 11px;
 }
 
 /*****Fin section info-group *************/
