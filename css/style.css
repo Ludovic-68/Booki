@@ -251,6 +251,8 @@ a {
 .hebergements-cards {
     display: flex;
     height: 207.25px;
+    justify-content: space-between;
+    margin-bottom: 30px;
 }
 
 .hebergements-cards .card {
@@ -259,7 +261,7 @@ a {
 }
 
 .hebergements-cards a {
-    width: 30%;
+    width: 255.33px;
 }
 
 .hebergements-cards img {
