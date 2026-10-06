@@ -294,8 +294,8 @@ a {
 }
 
 .afficher-plus {
-    margin: 0;
-    margin-top: 30px;
+ margin-top: 30px;
+ margin-bottom: 0;
 }
 
 /****** Populaires ***********/
@@ -343,6 +343,18 @@ a {
     margin-bottom: 5px;
 }
 
+/****** Activités ***********/
+
+.activites {
+    margin-top: 35px;
+    height: 559.02px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.activites-title {
+
+}
 
 
 
