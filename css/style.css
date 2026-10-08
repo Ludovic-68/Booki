@@ -27,16 +27,12 @@ body {
 
 /***** Header, Logo, Nav *************/
 header {
-    width: 100%; 
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     height: 79px;
 }
 
@@ -46,7 +42,6 @@ nav {
     gap: 68px;
     margin : 0;
     padding: 0;
-    align-self: flex-start;
 }
 
 .nav-links li:hover{
@@ -61,7 +56,7 @@ nav {
 .logo {
     width: 61.09px;
     height: 19px;
-    margin: 30px 0px;
+    margin-top: 30px;
 }
 /*****Fin du header, logo, nav *************/
 
@@ -75,8 +70,7 @@ nav {
 }
 
 .headline p {
-    margin: 3px 0px 0px;
-
+    margin-top: 3px;
 }
 
 h1 {
@@ -86,7 +80,8 @@ h1 {
 
 /**Barre de recherche**/
 .info-group-recherche {
-    margin: 35px 0px 35px;
+    margin-top: 35px;
+    margin-bottom: 35px;
     display: flex;
     height: 49px;
 }
@@ -96,9 +91,9 @@ h1 {
     width: 50px;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    background-color: #F2F2F2;
-    border-radius: 15px 0px 0px 15px;
+    background-color: var(--main-bg-color);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
 .recherche-icone i {
@@ -107,13 +102,11 @@ h1 {
 }
 
 .recherche-saisie {
-    border: 1px solid #F2F2F2;
+    border: 1px solid var(--main-bg-color);
     width: 195px;
     font-size: 18px;
     font-weight: 700;
-    font-family: inherit;
     text-align: center;
-    background-color: white;
 }
 
 .recherche-saisie::placeholder {
@@ -122,12 +115,12 @@ h1 {
 
 .bouton-recherche {
     width: 132px;
-    border-radius: 0 15px 15px 0;
-    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--main-color);
     border: none;
     font-size: 18px;
     font-weight: 700;
-    font-family: inherit;
     color: white;
     cursor: pointer;
 }
@@ -136,7 +129,6 @@ h1 {
 
 .info-group-filtres {
    height: 50px;
-   width: 758px;
    margin-bottom: 35px;
    display: flex;
    align-items: center;
@@ -145,19 +137,22 @@ h1 {
 
 .filtres-titre {
     font-size: 18px;
-    margin: 0px;
+    margin: 0;
 }
 
 .filtres-liste {
     display : flex;
     gap: 15px;
     list-style: none;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 .filtre {
-    padding: 13px 17px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 17px;
+    padding-right: 17px;
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     font-size: 17px;
@@ -168,7 +163,7 @@ h1 {
 }
 
 .filtre:hover {
-  background-color: #DEEBFF;
+  background-color: var(--filter-bg-color);
 }
 
 /**i info logement**/
@@ -177,7 +172,6 @@ h1 {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin: 35px 0px 0px;
 }
 
 .logements-icone {
@@ -250,18 +244,18 @@ a {
 
 .hebergements-cards {
     display: flex;
-    height: 207.25px;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
 .hebergements-cards .card {
-    height: 207.25px;
+    min-height: 207.25px;
+    height: 100%;
     box-sizing: border-box;
 }
 
 .hebergements-cards a {
-    width: 250.33px;
+    width: 31%;
 }
 
 .hebergements-cards img {
@@ -271,9 +265,6 @@ a {
     border-top-right-radius: 20px;
 }
 
-.hebergements-cards .card-content {
-   height : 64.25px;
-}
 
 .hebergements-cards .card-title {
     margin-top: 0;
@@ -294,7 +285,6 @@ a {
 }
 
 .afficher-plus {
- margin-top: 30px;
  margin-bottom: 0;
 }
 
@@ -363,7 +353,6 @@ a {
 
 .activites-cards .card {
     height: 439px;
-    box-sizing: border-box;
     padding: 0;
 }
 
@@ -381,7 +370,6 @@ a {
 .activites-cards .card-title {
     margin-left : 19px;
     margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
