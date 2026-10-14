@@ -125,6 +125,22 @@ h1 {
     cursor: pointer;
 }
 
+.bouton-loupe {
+    border-radius: 15px;
+    background-color: var(--main-color);
+    border: none;
+    cursor: pointer;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.bouton-loupe i {
+    color: white;
+    font-size: 17px;
+}
+
 /**Barre de filtres**/
 
 .info-group-filtres {
