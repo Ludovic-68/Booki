@@ -657,8 +657,20 @@ footer {
     }
 
     footer {
-        margin-top: 30px;
+        flex-direction: column;
     }
 
+    .footer-colonne {
+        width: 100%;
+    }
 
+    .footer-titre {
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+
+    .footer-liste {
+        margin-left: 30px;
+        margin-bottom: 0;
+    }
 }
