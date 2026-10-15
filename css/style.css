@@ -631,5 +631,34 @@ footer {
         margin-top: 15px;
     }
 
+    .activites {
+        margin-top: 0;
+    }
+
+    .activites-cards {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .activites-cards .card {
+        height: 200px;
+    }
+
+    .activites-cards a {
+        width: 100%;
+    }
+
+    .activites-cards img {
+        height: 141px;
+    }
+
+    .activites-cards .card-title{
+        margin-bottom: 20px;
+    }
+
+    footer {
+        margin-top: 30px;
+    }
+
 
 }
