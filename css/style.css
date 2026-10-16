@@ -196,7 +196,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 22px;
+    min-width: 22px;
     height: 22px;
     border: 1px solid #D9D9D9;
     border-radius: 50%;
@@ -532,7 +532,6 @@ footer {
 
 
     .info-group {
-        height: 432px;
         margin-left: 20px;
         margin-right: 20px;
     }
@@ -598,6 +597,10 @@ footer {
         background-color: white;
     }
 
+    .hebergements-title {
+        margin: 0;
+    }
+
     .populaires {
         height: 569px;
     }
@@ -620,6 +623,7 @@ footer {
    
     .hebergements-cards {
         gap: 15px;
+        margin-bottom: 15px;
     }
 
     .hebergements-cards a {
