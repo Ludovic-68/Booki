@@ -14,7 +14,6 @@
 }
 
 body {
-    max-width: 1440px;
     min-width: 320px;
     display: flex;
     justify-content: center;
@@ -242,8 +241,9 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
+
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -565,8 +565,6 @@ footer {
 
     .filtre {
         font-size: 14px;
-        box-sizing: border-box; 
-        justify-content: flex-start;
         padding-left: 14px;
         gap: 6px;
     }
